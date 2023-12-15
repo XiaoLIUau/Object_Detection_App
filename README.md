@@ -19,9 +19,10 @@ Step 1: Fill your email address and password in the file named ***set_env.sh***,
 ```
 #!/bin/bash
 
-# Fill your email address and password in corresponding '' below
+# Fill sender's email address and password, and reciver's email address in corresponding '' below
 export EMAIL_USER=''
 export EMAIL_PASSWORD=''  
+export RECIVER_EMAIL=''
 ```
 Step 2: Run cmd `./run_docker.sh` in terminal
 

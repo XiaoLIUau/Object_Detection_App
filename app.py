@@ -18,7 +18,7 @@ def index():
 def send_notification():
     sender = os.environ.get('EMAIL_USER')
     password = os.environ.get('EMAIL_PASSWORD')
-    receiver = 'xiao.liu.contact@gmail.com'# 'xin.chen9@uq.net.au' #
+    receiver = os.environ.get('RECIVER_EMAIL')
 
     print(sender)
     print(receiver)
