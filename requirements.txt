@@ -1,0 +1,9 @@
+opencv-python
+matplotlib
+huggingface_hub
+ipykernel
+keras
+tensorflow
+transformers
+timm
+flask
