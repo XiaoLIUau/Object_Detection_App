@@ -9,4 +9,4 @@ docker run
 -e EMAIL_USER="$EMAIL_USER" 
 -e EMAIL_PASSWORD="$EMAIL_PASSWORD" 
 -p 5000:5000 
-my_app_image
+my_detection_app
