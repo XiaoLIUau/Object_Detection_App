@@ -10,7 +10,7 @@ def load_api_key_from_file(file_path):
 
 
 def util_setup():
-    token_file_path='./api_key_huggingface.txt'
+    token_file_path='api_key_huggingface.txt'
     login(token=load_api_key_from_file(token_file_path))
 
     repo_id = "huggingface/label-files"
