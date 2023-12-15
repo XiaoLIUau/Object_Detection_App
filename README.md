@@ -26,5 +26,5 @@ Setup directly to pass the varibales in as parameters using following cmd:
 docker run -e EMAIL_USER='your_email@example.com' -e EMAIL_PASSWORD='your_password' -p 5000:5000 your_container_name
 ```
 
-Note: remember to change 'your_email@example.com' and 'your_password' to your email credentials before run the cmd
+Note: remember to change 'your_email@example.com', 'your_password', and 'your_container_name' before run the cmd
 
