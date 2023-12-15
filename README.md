@@ -10,7 +10,7 @@ Step 2: Save your huggingface api key in the file
 ## Second setup build docker image
 Build docker image using cmd below:
 ```
-docker build -t my_app_image .
+docker build -t my_detection_app .
 ```
 
 ## Third setup email credentials as environment variables and deploy the app
