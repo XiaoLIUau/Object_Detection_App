@@ -38,5 +38,7 @@ docker run
 my_detection_app
 ```
 
-Note: remember to change 'your_email@example.com' and 'your_password' with your emial credentials before run the cmd
+Note: 
+* Remember to change 'your_email@example.com' and 'your_password' with your emial credentials before run the cmd
+* `--device=/dev/video0` for camera streaming from docker only works on Linux sytem 
 
